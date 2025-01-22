@@ -86,8 +86,8 @@ echo -e "${BLUE}[*] > go install -v github.com/tomnomnom/assetfinder@latest ${RE
 go install -v github.com/tomnomnom/assetfinder@latest
 # ------------------------------------------------------
 echo -e "${GREEN}[+] Installing other tools ${RESET}"
-echo -e "${BLUE}[*] > mkdir -p /opt/{others,wordlists ${RESET}"
-mkdir -p /opt/{others,wordlists
+echo -e "${BLUE}[*] > mkdir -p /opt/{others,wordlists} ${RESET}"
+mkdir -p /opt/{others,wordlists}
 echo -e "${BLUE}[*] > cd /opt/others; git clone https://github.com/blechschmidt/massdns.git massdns_dic; cd massdns_dic; make; make install; mv bin/massdns /opt/others; rm -rf ../massdns_dic; cd ~ ${RESET}"
 cd /opt/others; git clone https://github.com/blechschmidt/massdns.git massdns_dic; cd massdns_dic; make; make install; mv bin/massdns /opt/others; rm -rf ../massdns_dic; cd ~
 echo -e "${BLUE}[*] > python3 -m pip install dnsgen --break-system-packages ${RESET}"

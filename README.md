@@ -4,7 +4,7 @@ This repository provides a comprehensive guide to setting up a virtual private s
 ## Auto Installation
 
 ```bash
-git clone XXX; cd XXX; bash XXX
+git clone https://github.com/hunThubSpace/ReconVPS.git; cd ReconVPS; bash reconVPS.sh
 ```
 
 ## Manual Installation

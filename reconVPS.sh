@@ -10,7 +10,7 @@ echo -e "${BLUE}[*] > sudo apt update && sudo apt -y upgrade ${RESET}"
 sudo apt update && sudo apt -y upgrade
 # ------------------------------------------------------
 echo -e "${GREEN}[+] Install requrement tools - part 1 ${RESET}"
-echo -e "${BLUE}[*] > sudo apt install -y git vim curl zsh net-tools tmux make jq unzip zip crunch gcc ${RESET}"
+echo -e "${BLUE}[*] > sudo apt install -y git vim curl zsh net-tools tmux make jq unzip zip crunch gcc dos2unix${RESET}"
 sudo apt install -y git vim curl zsh net-tools tmux make jq unzip zip crunch gcc
 # ------------------------------------------------------
 echo -e "${GREEN}[+] Install requrement tools - part 2 ${RESET}"
@@ -84,6 +84,8 @@ echo -e "${BLUE}[*] > go install -v github.com/d3mondev/puredns/v2@latest ${RESE
 go install -v github.com/d3mondev/puredns/v2@latest
 echo -e "${BLUE}[*] > go install -v github.com/tomnomnom/assetfinder@latest ${RESET}"
 go install -v github.com/tomnomnom/assetfinder@latest
+echo -e "${BLUE}[*] > go install -v github.com/incogbyte/shosubgor@latest ${RESET}"
+go install -v github.com/incogbyte/shosubgo@latest
 # ------------------------------------------------------
 echo -e "${GREEN}[+] Installing other tools ${RESET}"
 echo -e "${BLUE}[*] > mkdir -p /opt/{others,wordlists} ${RESET}"
